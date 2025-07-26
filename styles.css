@@ -1,0 +1,13 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; }
+header { background: #333; color: #fff; padding: 1em; }
+header a { color: #fff; text-decoration: none; margin-left: 1em; }
+main { max-width: 700px; margin: 2em auto; background: #fff; padding: 2em; border-radius: 8px; box-shadow: 0 2px 8px #0001; }
+#articles-list article { border-bottom: 1px solid #eee; padding: 1em 0; }
+#articles-list article:last-child { border-bottom: none; }
+#add-article, #comments-section { margin-top: 2em; }
+form input, form textarea { width: 100%; margin-bottom: 1em; padding: 0.5em; border: 1px solid #ccc; border-radius: 4px; }
+form button { padding: 0.5em 1em; border: none; background: #333; color: #fff; border-radius: 4px; cursor: pointer; }
+form button:hover { background: #555; }
+#comments-list { margin-bottom: 1em; }
+#comments-list .comment { border-bottom: 1px solid #eee; padding: 0.5em 0; }
+#comments-list .comment:last-child { border-bottom: none; }
